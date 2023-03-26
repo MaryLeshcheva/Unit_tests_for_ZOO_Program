@@ -1,3 +1,6 @@
+# Ignore JetBrains directory
+.idea
+
 # Compiled class file
 *.class
 
