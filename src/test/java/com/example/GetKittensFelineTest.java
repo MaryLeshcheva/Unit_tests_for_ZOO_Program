@@ -18,7 +18,7 @@ public class GetKittensFelineTest {
         this.expected = expected;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тестовые данные: {0} {1}")
     public static Object[][] getTestData() {
         return new Object[][]{
                 {0, 0},
